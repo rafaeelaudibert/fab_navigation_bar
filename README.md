@@ -17,7 +17,7 @@ An example of usage can be found in the `/examples` folder
 
 ### FabNavigationBar
 
-* `@required List<FabNavigationBarIcon> itens`: Itens which will be added to the `FabNavigationBar`, **NOT** included the FAB itself. *NOTE: As of version 0.1.0, it is recommended to pass an even number of `FabNavigationBarIcon` as the code doesn't handle the spacing with an odd number (it will be weird-looking);
+* `@required List<FabNavigationBarIcon> itens`: Itens which will be added to the `FabNavigationBar`, **NOT** included the FAB itself. *NOTE: As of version 0.1.0, it is recommended to pass an even number of `FabNavigationBarIcon` as the code doesn't handle the spacing with an odd number (it will be weird-looking)*;
 
 * `@required VoidCallback fabCallback`: Function which will be executed when we the FAB button is clicked
 
