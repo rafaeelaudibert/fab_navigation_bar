@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
-class FabBottomNavigationBarIcon {
+class FabNavigationBarIcon {
   final String name;
   final IconData icon;
   final VoidCallback callback;
 
-  FabBottomNavigationBarIcon(
+  FabNavigationBarIcon(
       {@required this.name, @required this.icon, @required this.callback});
 }
 
-class FabBottomNavigationBar extends StatefulWidget {
-  final List<FabBottomNavigationBarIcon> itens;
+class FabNavigationBar extends StatefulWidget {
+  final List<FabNavigationBarIcon> itens;
   final VoidCallback fabCallback;
   final IconData fabIcon;
   final PreferredSizeWidget appBar;
@@ -27,7 +27,7 @@ class FabBottomNavigationBar extends StatefulWidget {
   final Color selectedNavigationBarItemColor;
   final Color notSelectedNavigationBarItemColor;
 
-  FabBottomNavigationBar(
+  FabNavigationBar(
       {@required this.itens,
       @required this.fabCallback,
       this.fabIcon,
@@ -45,10 +45,10 @@ class FabBottomNavigationBar extends StatefulWidget {
       this.navigationBarTextStyle = const TextStyle()});
 
   @override
-  _FabBottomNavigationBarState createState() => _FabBottomNavigationBarState();
+  _FabNavigationBarState createState() => _FabNavigationBarState();
 }
 
-class _FabBottomNavigationBarState extends State<FabBottomNavigationBar> {
+class _FabNavigationBarState extends State<FabNavigationBar> {
   int selectedPage = 2;
 
   @override

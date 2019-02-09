@@ -4,30 +4,30 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 void main() => runApp(
       MaterialApp(
-        home: FabBottomNavigationBar(
+        home: FabNavigationBar(
           itens: [
-            FabBottomNavigationBarIcon(
+            FabNavigationBarIcon(
               name: 'Messages',
               icon: FontAwesomeIcons.facebookMessenger,
               callback: () {
                 print('Messages');
               },
             ),
-            FabBottomNavigationBarIcon(
+            FabNavigationBarIcon(
               name: 'Notifications',
               icon: FontAwesomeIcons.solidBell,
               callback: () {
                 print('Notifications');
               },
             ),
-            FabBottomNavigationBarIcon(
+            FabNavigationBarIcon(
               name: 'Profile',
               icon: FontAwesomeIcons.solidUser,
               callback: () {
                 print('Profile');
               },
             ),
-            FabBottomNavigationBarIcon(
+            FabNavigationBarIcon(
               name: 'Settings',
               icon: Icons.settings,
               callback: () {
